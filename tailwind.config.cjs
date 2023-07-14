@@ -2,12 +2,15 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       colors: {
         'blueColor': '#2a68ff',
+        'greyIsh': '#f1f4f8',
+        'cardShadow': '#f7f8f9',
+        'textColor': '#252b36',
       }
     },
   },
