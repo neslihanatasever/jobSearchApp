@@ -71,7 +71,7 @@ const Search = () => {
           </select>
         </div>
 
-        <span className='text-[#a1a1a1 cursor-pointer]'>Clear All</span>
+        <span className='text-[#a1a1a1] cursor-pointer'>Clear All</span>
       </div>
 
     </div>
