@@ -46,6 +46,6 @@ li:hover:before {
   cursor: pointer;
 } 
 
-/* .card{
-  background: black;
-} */
+.card{
+  background: url(/src/Assets/photo.png);
+} 

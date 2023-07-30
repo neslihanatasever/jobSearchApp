@@ -120,33 +120,7 @@ const Data = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     company: "Google"
   },
-  {
-    id: 3,
-    image: logo3,
-    title: "Software Eng.",
-    time: "Now",
-    location: "Austria",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    company: "Instagram"
-  },
-  {
-    id: 3,
-    image: logo4,
-    title: "Frontend Eng.",
-    time: "2Mnths.",
-    location: "Turkey",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    company: "Instagram"
-  },
-  {
-    id: 3,
-    image: logo5,
-    title: "Backend Dev.",
-    time: "12Hrs",
-    location: "South Korea",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    company: "Instagram"
-  },
+  
   
 ]
 

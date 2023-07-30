@@ -18,19 +18,19 @@ const Search = () => {
           <div className='flex gap-2 items-center'>
           <AiOutlineSearch className='text-[25px] icon'/>
             <input type='text' className='bg-transparent text-blue-500 focus:outline-none w-[100%]' placeholder='Search Job Here...'/>
-            <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6] hover:text-textColor icon'/>
+            {/* <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6] hover:text-textColor icon'/> */}
           </div>
 
           <div className='flex gap-2 items-center'>
             <BsHouseDoor className='text-[25px] icon'/>
             <input type='text' className='bg-transparent text-blue-500 focus:outline-none w-[100%]' placeholder='Search by Company...'/>
-            <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6] hover:text-textColor icon'/>
+            {/* <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6] hover:text-textColor icon'/> */}
           </div>
 
           <div className='flex gap-2 items-center'>
             <CiLocationOn className='text-[25px] icon'/>
             <input type='text' className='bg-transparent text-blue-500 focus:outline-none w-[100%]' placeholder='Search by Location...'/>
-            <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6] hover:text-textColor icon'/>
+            {/* <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6] hover:text-textColor icon'/> */}
           </div>
 
           <button className='bg-blueColor h-full p-5 px-10 rounded-[10px] text-white cursor-pointer hover:bg-blue-500'>Search</button>
