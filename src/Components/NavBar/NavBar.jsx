@@ -1,6 +1,7 @@
 import React from 'react'
 
-const NavItem = ({ children }) => <li className="menuList text-[#6f6f6f] hover:text-blueColor">{children}</li>
+const NavItem = ({ children }) => 
+  <li className="menuList text-[#6f6f6f] hover:text-blueColor">{children}</li>
 
 const NavBar = () => {
   return (
@@ -14,7 +15,7 @@ const NavBar = () => {
 
       <ul className="menu flex gap-8">
         <NavItem>Jobs</NavItem>
-        <li className="menuList text-[#6f6f6f] hover:text-blueColor">Companies</li>
+        <NavItem>Companies</NavItem>
         <li className="menuList text-[#6f6f6f] hover:text-blueColor">About</li>
         <li className="menuList text-[#6f6f6f] hover:text-blueColor">Contact</li>
         <li className="menuList text-[#6f6f6f] hover:text-blueColor">Blog</li>
